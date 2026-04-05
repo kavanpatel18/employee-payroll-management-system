@@ -1,33 +1,14 @@
-<h1 align="center">Employee Payroll Management System</h1>
+# 💼 Employee Payroll Management System
 
-<div align="center">
-  ![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-informational?style=flat&logo=jupyternotebook&logoColor=white) ![Java](https://img.shields.io/badge/Java-informational?style=flat&logo=java&logoColor=white) 
-</div>
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
-## 📌 Description
-A modern, well-structured repository for Employee Payroll Management System. 
-This project focuses on writing clean, efficient, and well-organized code.
+A robust, Object-Oriented Java ecosystem interacting with a MySQL relational database to manage backend corporate structures, employee salaries, and fiscal departments.
 
-## 🚀 Getting Started
+## 🚀 Key Features
+- **JDBC Database Connector**: Actively interfaces with `payroll_db` for atomic CRUD operations.
+- **Department Routing**: Dynamically assigns roles, budgets, and operational locations per employee configuration.
+- **Financial Architecture**: Auto-calculates salary models, taxation offsets, allowances, and payroll extraction logic securely.
+- **Exception Protocols**: Contains custom exception handling (`DuplicateRecordException`, `PayrollExceptions`) ensuring high systemic stability and database rollback safety.
 
-### Prerequisites
-Make sure you have the required environment installed for the primary language:
-- Jupyter Notebook, Java
-
-### Installation
-Clone the repository:
-```bash
-git clone https://github.com/kavanpatel18/Employee-Payroll-Management-System.git
-cd Employee-Payroll-Management-System
-```
-
-## 📂 Repository Structure
-*The file structure is organized for clarity and best practices.*
-
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome!
-
-<div align="center">
-  <br/>
-  <b>Made with ❤️ by Kavan Patel</b>
-</div>
+## 🛠️ Usage
+Requires an active MySQL server instances handling standard schemas `(dept_id, location, age)`. Run `Main.java` inside an enterprise IDE (IntelliJ/Eclipse) after applying SQL configurations.
